@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>login page</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <div class="container">
+          <div class="form-box">
+               <form action="" method="post">
+                    <h1>Login</h1>
+                    <div class="form-input">
+                         <input type="text" placeholder="username" id="email" required />
+                         <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="form-input">
+                         <input type="password" placeholder="password" id="password" required />
+                         <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <button class="btn" type="submit">Login</button>
+                    <div class="partition">
+                         <h3 class="seperator">OR</h3>
+                    </div>
+                    <div class="other-login">
+                         <a href="#"><i class="fa-brands fa-google"></i></a>
+                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="#"><i class="fa-brands fa-github"></i></a>
+                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="forgotlogin">
+                         <a href="#">forgot password?</a>
+                    </div>
+               </form>
+          </div>
+          <div class="form-box register">
+               <form action="" method="post">
+                    <h1>Registration</h1>
+                    <div class="form-input">
+                         <input type="text" placeholder="username" id="username" required />
+                         <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="form-input">
+                         <input type="email" placeholder="email" id="email" required />
+                         <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="form-input">
+                         <input type="password" placeholder="password" id="password" required />
+                         <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <button class="btn" type="submit">Register</button>
+                    <div class="partition">
+                         <h3 class="seperator">OR</h3>
+                    </div>
+                    <div class="other-login">
+                         <a href="#"><i class="fa-brands fa-google"></i></a>
+                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="#"><i class="fa-brands fa-github"></i></a>
+                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+               </form>
+          </div>
+
+          <div class="toggle-box">
+               <div class="toggle-panel toggle-left">
+                    <h1>Hello, Welcome!</h1>
+                    <p>Don't have an account?</p>
+                    <button class="btn register-btn" >Register</button>
+               </div>
+               <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Already have an account?</p>
+                    <button class="btn login-btn" >Login</button>
+               </div>
+          </div>
+
+     </div>
+
+     <script src="script.js"></script>
+</body>
+
+</html>
